@@ -1,0 +1,33 @@
+{
+  "name": "esexp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianprime0509/lisp-js.git"
+  },
+  "author": {
+    "name": "Ian Johnson",
+    "email": "ian@ianjohnson.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianprime0509/lisp-js/issues"
+  },
+  "homepage": "https://github.com/ianprime0509/lisp-js#readme",
+  "devDependencies": {
+    "@types/estree": "^1.0.0",
+    "@types/node": "^18.11.18",
+    "ava": "^5.1.0",
+    "prettier": "2.8.1",
+    "typescript": "^4.9.4",
+    "xo": "^0.53.1"
+  },
+  "dependencies": {
+    "acorn": "^8.8.1",
+    "astring": "^1.8.4",
+    "estree-util-visit": "^1.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+(macro if [cond a b]
+  (return {"type" "IfStatement"
+           "test" cond
+           "consequent" a
+           "alternate" (?? b null)}))
+
+(macro add-literals [a b]
+  (if (and (=== a.type "Literal") (=== b.type "Literal"))
+      (return (+ a.value b.value))
+      (throw (new Error "Arguments are not both literals")))))
